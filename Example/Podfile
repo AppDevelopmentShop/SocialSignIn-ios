@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SocialSignIn-iOS_Tests' do
+  pod 'SocialSignIn-iOS', :path => '../'
+  
+  
+end
