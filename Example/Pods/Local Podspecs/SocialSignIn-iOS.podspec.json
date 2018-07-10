@@ -1,0 +1,22 @@
+{
+  "name": "SocialSignIn-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of SocialSignIn-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pprivalov/SocialSignIn-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pprivalov": "privalov.pavlo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pprivalov/SocialSignIn-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SocialSignIn-iOS/Classes/**/*"
+}
