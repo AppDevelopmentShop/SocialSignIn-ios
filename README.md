@@ -19,6 +19,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SocialSignIn-iOS'
 ```
+Add to AppDelegate.swift
+```swift
+func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+	let facebook = FacebookClient.shared.applicationLogin(app, open: url, options: options)
+	let twitter = TwitterClient.shared.applicationLogin(app, open: url, options: options)
+	let linkedIn = LinkedInClient.shared.applicationLogin(app, open: url, options: options)
+	let vk = VKClient.shared.applicationLogin(app, open: url, options: options)
+
+	return facebook || twitter || linkedIn || vk
+}
+```
 
 ## Author
 
