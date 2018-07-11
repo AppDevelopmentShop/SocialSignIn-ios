@@ -8,7 +8,9 @@ Social sign in library for swift. Install this lib and never write it again
   s.homepage         = 'https://github.com/AppDevelopmentShop/SocialSignIn-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pprivalov' => 'privalov.pavlo@gmail.com' }
-  s.source           = { :git => 'https://github.com/AppDevelopmentShop/SocialSignIn-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AppDevelopmentShop/SocialSignIn-ios.git',
+					  :branch => 'master',
+					  :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'SocialSignIn-iOS/Classes/**/*'
 
