@@ -1,8 +1,6 @@
 # SocialSignIn-iOS
 Mini library for sign in using social networking
 
-*Read this in other languages: [English](README.md), [Русский](README-ru.md).*
-
 #### Table of Contents
 
 - [Requirements](#requirements)
