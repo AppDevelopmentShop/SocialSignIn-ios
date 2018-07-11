@@ -1,6 +1,0 @@
-framework module SocialSignIn_iOS {
-  umbrella header "SocialSignIn-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
