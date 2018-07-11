@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="SocialSingIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmY-Xu-jYB">
+                                <rect key="frame" x="105.66666666666669" y="357.66666666666669" width="164" height="30"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.54509803921568623" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login with Twitter">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTwitterLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewd-Uj-Rh6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKS-rp-UaZ">
+                                <rect key="frame" x="105.66666666666669" y="396" width="164" height="30"/>
+                                <color key="backgroundColor" red="0.81738022214854111" green="0.0" blue="0.15080941070642401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login with Google">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onGoogleLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4HY-Og-Hxm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlh-fB-Rpg">
+                                <rect key="frame" x="105.66666666666669" y="433.66666666666669" width="164" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.57320114184636139" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login with VK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onVKLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lUP-Pu-lbn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUD-xi-I38">
+                                <rect key="frame" x="105.66666666666669" y="471.66666666666669" width="164" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.35487275939613516" blue="0.7172911844135802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login with LinkedIn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onLinkedInLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v0e-Ns-z9f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRs-mw-OVa">
+                                <rect key="frame" x="105.66666666666669" y="320" width="164" height="30"/>
+                                <color key="backgroundColor" red="0.065078687006847047" green="0.36769591705304761" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="QxE-fW-nk5"/>
+                                </constraints>
+                                <state key="normal" title="Login with Facebook">
+                                    <color key="titleColor" red="0.99902207049450142" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onFacebookLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8A-BL-eRK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHN-B4-I92">
+                                <rect key="frame" x="143" y="509" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9O-re-Sd6">
+                                <rect key="frame" x="143" y="538" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aZ-PX-EFd">
+                                <rect key="frame" x="162.66666666666666" y="567" width="50" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjY-93-Plg">
+                                <rect key="frame" x="105" y="282" width="164" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.73387842428047279" blue="0.37623862180448031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="EKd-86-w01"/>
+                                </constraints>
+                                <state key="normal" title="Login with Instagram">
+                                    <color key="titleColor" red="0.99902207050000003" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onInstagramLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYj-uy-kv3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hKS-rp-UaZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2km-V9-fx3"/>
+                            <constraint firstItem="fUD-xi-I38" firstAttribute="top" secondItem="xlh-fB-Rpg" secondAttribute="bottom" constant="8" id="6eh-8f-4dY"/>
+                            <constraint firstItem="1aZ-PX-EFd" firstAttribute="top" secondItem="X9O-re-Sd6" secondAttribute="bottom" constant="8" id="7mY-xg-RQ8"/>
+                            <constraint firstItem="LRs-mw-OVa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hk8-OP-lx9"/>
+                            <constraint firstItem="fUD-xi-I38" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NAA-8r-zR4"/>
+                            <constraint firstItem="OHN-B4-I92" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O0D-32-dH1"/>
+                            <constraint firstItem="hKS-rp-UaZ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="R9f-co-lR2"/>
+                            <constraint firstItem="xlh-fB-Rpg" firstAttribute="top" secondItem="hKS-rp-UaZ" secondAttribute="bottom" constant="7.5" id="Tjz-Vy-4ZC"/>
+                            <constraint firstItem="hmY-Xu-jYB" firstAttribute="width" secondItem="LRs-mw-OVa" secondAttribute="width" id="UAn-9L-Agb"/>
+                            <constraint firstItem="X9O-re-Sd6" firstAttribute="top" secondItem="OHN-B4-I92" secondAttribute="bottom" constant="8" id="VM1-zx-Bp8"/>
+                            <constraint firstItem="fUD-xi-I38" firstAttribute="width" secondItem="LRs-mw-OVa" secondAttribute="width" id="WT1-Dk-mNR"/>
+                            <constraint firstItem="hKS-rp-UaZ" firstAttribute="width" secondItem="LRs-mw-OVa" secondAttribute="width" id="Wko-y5-afx"/>
+                            <constraint firstItem="OHN-B4-I92" firstAttribute="top" secondItem="fUD-xi-I38" secondAttribute="bottom" constant="7.5" id="ajT-lx-Ncn"/>
+                            <constraint firstItem="hmY-Xu-jYB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="m0D-18-aDF"/>
+                            <constraint firstItem="xlh-fB-Rpg" firstAttribute="width" secondItem="LRs-mw-OVa" secondAttribute="width" id="mi8-29-OyP"/>
+                            <constraint firstItem="LRs-mw-OVa" firstAttribute="top" secondItem="gjY-93-Plg" secondAttribute="bottom" constant="8" id="pRC-Ka-WeB"/>
+                            <constraint firstItem="hKS-rp-UaZ" firstAttribute="top" secondItem="hmY-Xu-jYB" secondAttribute="bottom" constant="8.5" id="pfj-Fz-cQM"/>
+                            <constraint firstItem="xlh-fB-Rpg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rWY-9p-Srk"/>
+                            <constraint firstItem="1aZ-PX-EFd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="u84-b2-Woy"/>
+                            <constraint firstItem="hmY-Xu-jYB" firstAttribute="top" secondItem="LRs-mw-OVa" secondAttribute="bottom" constant="8" id="vBK-Xy-Rqr"/>
+                            <constraint firstItem="X9O-re-Sd6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="x0y-DW-YO2"/>
+                            <constraint firstItem="gjY-93-Plg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zEQ-qF-Icz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="1aZ-PX-EFd" id="iqh-ot-v84"/>
+                        <outlet property="facebookButton" destination="LRs-mw-OVa" id="Ilh-xh-mgS"/>
+                        <outlet property="firstNameLabel" destination="OHN-B4-I92" id="dVG-dP-H3b"/>
+                        <outlet property="googleButton" destination="hKS-rp-UaZ" id="9RD-sn-vgf"/>
+                        <outlet property="instagramButton" destination="gjY-93-Plg" id="7st-EB-QDr"/>
+                        <outlet property="lastNameLabel" destination="X9O-re-Sd6" id="G4O-IS-7bt"/>
+                        <outlet property="linkedInButton" destination="fUD-xi-I38" id="Fpq-Vj-9VE"/>
+                        <outlet property="twitterButton" destination="hmY-Xu-jYB" id="6Yq-gv-1ld"/>
+                        <outlet property="vkButton" destination="xlh-fB-Rpg" id="CEE-Se-1u6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="55"/>
+        </scene>
+    </scenes>
+</document>

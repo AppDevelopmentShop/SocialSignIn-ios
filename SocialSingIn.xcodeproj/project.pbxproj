@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE2946AA99F6A5603580968 /* Pods_SocialSingIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24A987A49596A790D54D25F /* Pods_SocialSingIn.framework */; };
+		9C67D2E420EE12D000470DB3 /* InstagramClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C67D2E320EE12D000470DB3 /* InstagramClient.swift */; };
+		9C7B725120EA43180082AF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B725020EA43180082AF4C /* AppDelegate.swift */; };
+		9C7B725620EA43180082AF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B725420EA43180082AF4C /* Main.storyboard */; };
+		9C7B725820EA431B0082AF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B725720EA431B0082AF4C /* Assets.xcassets */; };
+		9C7B725B20EA431B0082AF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B725920EA431B0082AF4C /* LaunchScreen.storyboard */; };
+		9C7B727220EA4F460082AF4C /* GoogleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B726E20EA4F450082AF4C /* GoogleClient.swift */; };
+		9C7B727320EA4F460082AF4C /* VKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B726F20EA4F450082AF4C /* VKClient.swift */; };
+		9C7B727420EA4F460082AF4C /* FacebookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B727020EA4F460082AF4C /* FacebookClient.swift */; };
+		9C7B727520EA4F460082AF4C /* SocialClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B727120EA4F460082AF4C /* SocialClient.swift */; };
+		9C7B727720EA511E0082AF4C /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B727620EA511E0082AF4C /* TwitterClient.swift */; };
+		9C7B727920EA6A3A0082AF4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B727820EA6A3A0082AF4C /* MainViewController.swift */; };
+		9C7B728020EB990F0082AF4C /* LinkedInClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B727F20EB990F0082AF4C /* LinkedInClient.swift */; };
+		9C7B728320EBA54D0082AF4C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B728220EBA54D0082AF4C /* String.swift */; };
+		9C7B728520EBA60E0082AF4C /* OptionsToSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B728420EBA60E0082AF4C /* OptionsToSignInModel.swift */; };
+		9C7B728820EBAFCF0082AF4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B728720EBAFCF0082AF4C /* GoogleService-Info.plist */; };
+		9C7B728A20EBB13D0082AF4C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7B728920EBB13D0082AF4C /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AE9D915364378119FC5C03B /* Pods-SocialSingIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSingIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn.debug.xcconfig"; sourceTree = "<group>"; };
+		9C67D2E320EE12D000470DB3 /* InstagramClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramClient.swift; sourceTree = "<group>"; };
+		9C7B724D20EA43180082AF4C /* SocialSingIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSingIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7B725020EA43180082AF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C7B725520EA43180082AF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C7B725720EA431B0082AF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C7B725A20EA431B0082AF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C7B725C20EA431B0082AF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7B726E20EA4F450082AF4C /* GoogleClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleClient.swift; sourceTree = "<group>"; };
+		9C7B726F20EA4F450082AF4C /* VKClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKClient.swift; sourceTree = "<group>"; };
+		9C7B727020EA4F460082AF4C /* FacebookClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookClient.swift; sourceTree = "<group>"; };
+		9C7B727120EA4F460082AF4C /* SocialClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialClient.swift; sourceTree = "<group>"; };
+		9C7B727620EA511E0082AF4C /* TwitterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		9C7B727820EA6A3A0082AF4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9C7B727F20EB990F0082AF4C /* LinkedInClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInClient.swift; sourceTree = "<group>"; };
+		9C7B728220EBA54D0082AF4C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		9C7B728420EBA60E0082AF4C /* OptionsToSignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsToSignInModel.swift; sourceTree = "<group>"; };
+		9C7B728720EBAFCF0082AF4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C7B728920EBB13D0082AF4C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		D24A987A49596A790D54D25F /* Pods_SocialSingIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSingIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678EA081BFB1ED544DFDAD1 /* Pods-SocialSingIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSingIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7B724A20EA43180082AF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7B728A20EBB13D0082AF4C /* SafariServices.framework in Frameworks */,
+				3BE2946AA99F6A5603580968 /* Pods_SocialSingIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E04813FC3FCFB303BCA990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE9D915364378119FC5C03B /* Pods-SocialSingIn.debug.xcconfig */,
+				D678EA081BFB1ED544DFDAD1 /* Pods-SocialSingIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C7B724420EA43180082AF4C = {
+			isa = PBXGroup;
+			children = (
+				9C7B724F20EA43180082AF4C /* SocialSingIn */,
+				9C7B724E20EA43180082AF4C /* Products */,
+				55E04813FC3FCFB303BCA990 /* Pods */,
+				BE5BE66A92F0870CFEB2BBF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7B724E20EA43180082AF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B724D20EA43180082AF4C /* SocialSingIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7B724F20EA43180082AF4C /* SocialSingIn */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B728620EBA62B0082AF4C /* Models */,
+				9C7B728120EBA5420082AF4C /* Extentions */,
+				9C7B727A20EA6A480082AF4C /* ViewControllers */,
+				9C7B726520EA4F190082AF4C /* SocialClients */,
+				9C7B725020EA43180082AF4C /* AppDelegate.swift */,
+				9C7B725420EA43180082AF4C /* Main.storyboard */,
+				9C7B725720EA431B0082AF4C /* Assets.xcassets */,
+				9C7B725920EA431B0082AF4C /* LaunchScreen.storyboard */,
+				9C7B725C20EA431B0082AF4C /* Info.plist */,
+				9C7B728720EBAFCF0082AF4C /* GoogleService-Info.plist */,
+			);
+			path = SocialSingIn;
+			sourceTree = "<group>";
+		};
+		9C7B726520EA4F190082AF4C /* SocialClients */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B727120EA4F460082AF4C /* SocialClient.swift */,
+				9C7B727020EA4F460082AF4C /* FacebookClient.swift */,
+				9C7B727620EA511E0082AF4C /* TwitterClient.swift */,
+				9C7B726E20EA4F450082AF4C /* GoogleClient.swift */,
+				9C7B726F20EA4F450082AF4C /* VKClient.swift */,
+				9C7B727F20EB990F0082AF4C /* LinkedInClient.swift */,
+				9C67D2E320EE12D000470DB3 /* InstagramClient.swift */,
+			);
+			path = SocialClients;
+			sourceTree = "<group>";
+		};
+		9C7B727A20EA6A480082AF4C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B727820EA6A3A0082AF4C /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C7B728120EBA5420082AF4C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B728220EBA54D0082AF4C /* String.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		9C7B728620EBA62B0082AF4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B728420EBA60E0082AF4C /* OptionsToSignInModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE5BE66A92F0870CFEB2BBF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B728920EBB13D0082AF4C /* SafariServices.framework */,
+				D24A987A49596A790D54D25F /* Pods_SocialSingIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7B724C20EA43180082AF4C /* SocialSingIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7B725F20EA431B0082AF4C /* Build configuration list for PBXNativeTarget "SocialSingIn" */;
+			buildPhases = (
+				390380B3731F0B320DF21E1D /* [CP] Check Pods Manifest.lock */,
+				9C7B724920EA43180082AF4C /* Sources */,
+				9C7B724A20EA43180082AF4C /* Frameworks */,
+				9C7B724B20EA43180082AF4C /* Resources */,
+				133D8122C69A4D69D15E870E /* [CP] Embed Pods Frameworks */,
+				BF4F41C5FBB5E3A8D0AB216A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialSingIn;
+			productName = SocialSingIn;
+			productReference = 9C7B724D20EA43180082AF4C /* SocialSingIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7B724520EA43180082AF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Павел Привалов";
+				TargetAttributes = {
+					9C7B724C20EA43180082AF4C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C7B724820EA43180082AF4C /* Build configuration list for PBXProject "SocialSingIn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C7B724420EA43180082AF4C;
+			productRefGroup = 9C7B724E20EA43180082AF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7B724C20EA43180082AF4C /* SocialSingIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C7B724B20EA43180082AF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7B725B20EA431B0082AF4C /* LaunchScreen.storyboard in Resources */,
+				9C7B728820EBAFCF0082AF4C /* GoogleService-Info.plist in Resources */,
+				9C7B725820EA431B0082AF4C /* Assets.xcassets in Resources */,
+				9C7B725620EA43180082AF4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133D8122C69A4D69D15E870E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FHSTwitterEngine/FHSTwitterEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
+				"${BUILT_PRODUCTS_DIR}/InstagramLogin/InstagramLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FHSTwitterEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstagramLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		390380B3731F0B320DF21E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialSingIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4F41C5FBB5E3A8D0AB216A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialSingIn/Pods-SocialSingIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7B724920EA43180082AF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7B727920EA6A3A0082AF4C /* MainViewController.swift in Sources */,
+				9C7B727320EA4F460082AF4C /* VKClient.swift in Sources */,
+				9C67D2E420EE12D000470DB3 /* InstagramClient.swift in Sources */,
+				9C7B727220EA4F460082AF4C /* GoogleClient.swift in Sources */,
+				9C7B727420EA4F460082AF4C /* FacebookClient.swift in Sources */,
+				9C7B728020EB990F0082AF4C /* LinkedInClient.swift in Sources */,
+				9C7B727720EA511E0082AF4C /* TwitterClient.swift in Sources */,
+				9C7B725120EA43180082AF4C /* AppDelegate.swift in Sources */,
+				9C7B728320EBA54D0082AF4C /* String.swift in Sources */,
+				9C7B727520EA4F460082AF4C /* SocialClient.swift in Sources */,
+				9C7B728520EBA60E0082AF4C /* OptionsToSignInModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C7B725420EA43180082AF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7B725520EA43180082AF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C7B725920EA431B0082AF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7B725A20EA431B0082AF4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C7B725D20EA431B0082AF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C7B725E20EA431B0082AF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7B726020EA431B0082AF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE9D915364378119FC5C03B /* Pods-SocialSingIn.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4SD5WX6W;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialSingIn/SocialClients",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = SocialSingIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pprivalo.SocialSingIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		9C7B726120EA431B0082AF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D678EA081BFB1ED544DFDAD1 /* Pods-SocialSingIn.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4SD5WX6W;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialSingIn/SocialClients",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = SocialSingIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pprivalo.SocialSingIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7B724820EA43180082AF4C /* Build configuration list for PBXProject "SocialSingIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7B725D20EA431B0082AF4C /* Debug */,
+				9C7B725E20EA431B0082AF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7B725F20EA431B0082AF4C /* Build configuration list for PBXNativeTarget "SocialSingIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7B726020EA431B0082AF4C /* Debug */,
+				9C7B726120EA431B0082AF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7B724520EA43180082AF4C /* Project object */;
+}
