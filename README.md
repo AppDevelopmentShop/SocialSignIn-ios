@@ -36,6 +36,7 @@ Create your apps on:
  - https://apps.twitter.com
  - https://developer.linkedin.com
  - https://vk.com/dev
+ - https://developers.google.com
 
 Config your ``Info.plist``. Add this source code and change ``<Linked In App Number>``, ``<Facebook App ID>``, ``<VK App ID>``,
 ``<Google CLient ID>``, ``<Twitter Consumer Key>`` with your app data:
